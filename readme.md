@@ -1,10 +1,7 @@
-#Cordova Google Play Games Services + iOS Game Center
+#Cordova Google Play Games Services
 
-This plugin is for Cordova Android apps to enable limitted Google Play Games Services API and iOS Game Center
+This plugin is for Cordova Android apps to enable limitted Google Play Games Services API
 
-##iOS support
-
-iOS support has been added through a dependency of <a href="https://github.com/Wizcorp/phonegap-plugin-gameCenter">https://github.com/Wizcorp/phonegap-plugin-gameCenter</a> .  We have wrapped the API calls to match below.  See the plugin for configuration details.
 
 ##Usage
 
