@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="com.intel.googleplaygamesplugin"
+    id="com.lobsterclawsoftware.googleplaygamesplugin"
     version="1.0.3">
 
     <name>GooglePlayGamesPlugin</name>
@@ -74,11 +74,4 @@
             target-dir="src/com/google/example/games/basegameutils"/>
     </platform>
 
-
-    <platform name="ios">
-        <dependency id="jp.wizcorp.phonegap.plugin.gameCenterPlugin" url="https://github.com/Wizcorp/phonegap-plugin-gameCenter" />
-         <js-module src="www/iOSGooglePlayGamesPlugin.js" name="GooglePlayGamesPlugin">
-            <merges target="window.GooglePlayGamesPlugin" />
-        </js-module>
-    </platform>
 </plugin>
